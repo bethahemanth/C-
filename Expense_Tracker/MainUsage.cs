@@ -15,14 +15,6 @@ public class MainUsage
             Console.WriteLine("1: To add an expense");
             Console.WriteLine("2: To view all expenses");
             Console.WriteLine("3: To exit");
-
-            int r;
-            if (!int.TryParse(Console.ReadLine(), out r)) // Input validation
-            {
-                Console.WriteLine("Invalid input. Please enter a number.");
-                continue;
-            }
-
             switch (r)
             {
                 case 1:
@@ -35,15 +27,10 @@ public class MainUsage
                     break;
                 case 3:
                     Console.WriteLine("Exiting...");
-                    break; // Break the loop when the user chooses to exit
+                    break;
                 default:
                     Console.WriteLine("Invalid option. Please try again.");
                     break;
-            }
-
-            if (r == 3) // Additional break condition for clarity
-            {
-                break;
             }
         }
 
