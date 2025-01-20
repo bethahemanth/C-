@@ -6,11 +6,11 @@ public class Basic
     {
         int a = 5, b = 3;
         Console.WriteLine("Arithmetic Operators:");
-        Console.WriteLine($"Addition: {a}+{b}={a+b}");
-        Console.WriteLine($"Subtraction: {a}-{b}={a-b}");
-        Console.WriteLine($"Multiplication: {a}*{b}={a*b}");
-        Console.WriteLine($"Division: {a}/{b}={a/b}");
-        Console.WriteLine($"Modulus: {a}%{b}={a%b}");
+        Console.WriteLine($"Addition:{a}+{b}={a+b}");
+        Console.WriteLine($"Subtraction:{a}-{b}={a-b}");
+        Console.WriteLine($"Multiplication:{a}*{b}={a*b}");
+        Console.WriteLine($"Division:{a}/{b}={a/b}");
+        Console.WriteLine($"Modulus:{a}%{b}={a%b}");
     }
 
     public bool IsEligible(int age, bool hasID)

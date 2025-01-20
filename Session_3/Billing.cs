@@ -63,8 +63,8 @@ namespace Bill
 public class main_class
 {
     public static void Main(string[] args)
-    {
+    { 
         Billing b = new Billing(1, 1000, "About the milk products", new DateTime(2025, 01, 01), "Curd", "Food", 100, 50);
-        b.PrintBilling(b);
+        b.PrintBilling(b); 
     }
 }

@@ -4,7 +4,7 @@ public class MainUsage
 {
     public static void Main(string[] args)
     {
-        dynamic a = 5;
+        dynamic a=5;
         a = "Hello";
         System.Console.WriteLine(a);
         Expense.l.Add(new Expense(new DateTime(2025, 01, 01), "Food", 45.00, "Groceries"));
